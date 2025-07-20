@@ -55,7 +55,7 @@ Quiz-app/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/quiz-app.git
+https://github.com/Akash504-ai/Quiz-App
 
 # 2. Navigate into the project folder
 cd quiz-app
