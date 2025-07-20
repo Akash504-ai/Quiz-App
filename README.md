@@ -1,12 +1,98 @@
-# React + Vite
+# 📚 Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Quiz App built using **React.js**. Users can test their knowledge by answering multiple-choice questions, see the correct answer instantly, and get a final score at the end.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## Expanding the ESLint configuration
+![Quiz App Screenshot]
+<img width="866" height="751" alt="image" src="https://github.com/user-attachments/assets/5cfc1f46-a2dd-4a93-9d47-c4f61b4774bd" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- 📖 Displays one question at a time  
+- ✅ Instantly highlights correct and wrong answers  
+- 📊 Score tracking  
+- 🔁 Reset quiz anytime  
+- 🔒 Prevents multiple answers for one question  
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **CSS** (custom styling)
+- **Vite** (for faster development)
+
+---
+
+## 📁 Folder Structure
+
+Quiz-app/
+├── public/
+├── src/
+│ ├── assets/
+│ │ └── data.js # Contains all quiz questions and answers
+│ ├── Components/
+│ │ └── Quiz/
+│ │ ├── Quiz.jsx # Main Quiz component
+│ │ └── Quiz.css # Styles for quiz
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+
+---
+
+## 📦 Installation & Running Locally
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/quiz-app.git
+
+# 2. Navigate into the project folder
+cd quiz-app
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
+npm run dev
+
+
+📋 Data Format (data.js)
+
+export const data = [
+  {
+    question: "Which of the following is a web browser?",
+    option1: "Linux",
+    option2: "Google Chrome",
+    option3: "GitHub",
+    option4: "Python",
+    ans: 2
+  },
+  // Add more questions...
+];
+
+
+🔧 To-Do / Improvements
+Add progress bar
+
+Add timer per question
+
+Store scores in local storage
+
+Add categories/difficulty levels
+
+🧑‍💻 Author
+Made with ❤️ by Akash Santra
+
+📜 License
+This project is licensed under the MIT License.
